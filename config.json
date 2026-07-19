@@ -1,6 +1,6 @@
 {
     "bot": {
-        "token": "YOUR_TOKEN_HERE",
+        "token": "${process.env.TOKEN}",
         "presence": {
             "status": "online",
             "activities": [{
