@@ -1,0 +1,51 @@
+{
+    "bot": {
+        "token": "YOUR_TOKEN_HERE",
+        "presence": {
+            "status": "online",
+            "activities": [{
+                "name": "Flaron Mc Servers",
+                "type": "WATCHING"
+            }]
+        }
+    },
+    "minecraft": {
+        "servers": [{
+            "name": "Flaron Mc",
+            "ip": "Flaron-Half-Heart.aternos.me",
+            "port": 39514,
+            "channelId": "1528452079625048084",
+            "updateInterval": 60000,
+            "display": {
+                "type": "chart",
+                "banner": {
+                    "url": "https://github.com/BLKOFFICIAL.png",
+                    "enabled": false
+                },
+                "chart": {
+                    "enabled": true,
+                    "historyHours": 24,
+                    "color": "#3498db"
+                },
+                "showNextUpdate": true
+            }
+        }]
+    },
+    "embed": {
+        "colors": {
+            "online": "#00ff00",
+            "offline": "#ff0000"
+        },
+        "title": "🎮 Minecraft Server Status",
+        "footer": {
+            "text": "Made with ❤️ by Team BLK",
+            "iconURL": "https://github.com/BLKOFFICIAL.png"
+        }
+    },
+    "credits": {
+        "author": "Team BLK",
+        "youtube": "https://www.youtube.com/@team_blk_official",
+        "discord": "adithyadev.blk",
+        "github": "https://github.com/BLKOFFICIAL"
+    }
+}
